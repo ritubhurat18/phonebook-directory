@@ -1,0 +1,85 @@
+.quickadd {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 13px;
+  width: 108px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.quickadd span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.quickadd span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.quickadd:hover span {
+  padding-right: 14px;
+}
+
+.quickadd:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.btn1
+{
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;}
+ .addbook {
+    display: table;
+	border:1px solid black;
+	width:90%;
+	padding:10px;
+    }
+
+  .entry {
+    display: table-row;
+    }
+
+  .name,.email,.phone {
+    display: table-cell;
+    }
+	.del
+	{background-color:#4CAF50 ;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ 
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;}
+ .del:hover {opacity: 1}
+ .del a
+ {
+ color:#FF0000;}
